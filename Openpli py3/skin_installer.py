@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 # code BY: ASGHAR ALI
-# python -c "$(https://raw.githubusercontent.com/soomarali/DOWNLOADS/main/Openpli%20py3/skin_installer.py -qO -)"
 import subprocess
 
 # List of file URLs to download
 urls = [
-    "https://raw.githubusercontent.com/soomarali/DOWNLOADS/main/Openpli%20py3/NAGA_CLBS-FHD.tar.gz"
-,
+    "https://raw.githubusercontent.com/soomarali/DOWNLOADS/main/Openpli%20py3/OctagonBlackFHD.tar.gz",
     "https://example.com/file2.tar.gz",
     "https://example.com/file3.tar.gz",
     # Add more URLs for the remaining files
