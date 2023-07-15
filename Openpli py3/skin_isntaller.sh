@@ -34,6 +34,9 @@ destination="/tmp/skins"
 # Create the destination directory if it doesn't exist
 mkdir -p "$skins"
 
+# Variable to track the completion status
+completed=false
+
 # Iterate over the URLs and download each file
 for url in "${urls[@]}"; do
     filename=$(basename "$url")
@@ -49,8 +52,19 @@ for url in "${urls[@]}"; do
 
     # Remove the downloaded tar.gz file
     rm "$destination/$filename"
+# Check if all files have been processed
+    if [[ "$filename" == "${urls[-1]}" ]]; then
+        completed=true
+        break
+    fi
 done
-sleep 2
+# Display message based on completion status
+if "$completed"; then
+    echo "All files downloaded and extracted successfully."
+else
+    echo "Script execution incomplete."
+fi
+sleep2
 clear
 echo ""
 echo "***********************************************************************"
