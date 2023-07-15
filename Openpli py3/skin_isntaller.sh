@@ -39,6 +39,11 @@ for url in "${urls[@]}"; do
     filename=$(basename "$url")
     wget -P "$destination" "$url"
 
+ echo "SCRIPT MADE BY ASGHAR ALI"
+ echo "FOR DREAMWORLD & ENIGMA2 LOVERS"
+ echo "SUPPORT: 03357300604"
+ echo "file Downloaded now Extracting: $filename"
+
     # Extract the downloaded file
     tar -xzvf "$destination/$filename" -C "$destination"
 
