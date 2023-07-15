@@ -5,7 +5,8 @@ import subprocess
 
 # List of file URLs to download
 urls = [
-    "https://example.com/file1.tar.gz",
+    "https://raw.githubusercontent.com/soomarali/DOWNLOADS/main/Openpli%20py3/NAGA_CLBS-FHD.tar.gz"
+,
     "https://example.com/file2.tar.gz",
     "https://example.com/file3.tar.gz",
     # Add more URLs for the remaining files
