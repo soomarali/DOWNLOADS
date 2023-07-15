@@ -15,7 +15,7 @@ urls = [
 destination = "/tmp/skins/"
 
 # Create the destination directory if it doesn't exist
-subprocess.run(["mkdir", "-p", destination])
+subprocess.run(["mkdir", "-p", /tmp/skins])
 
 # Iterate over the URLs and download each file
 for url in urls:
