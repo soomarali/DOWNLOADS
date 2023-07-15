@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # ###########################################
-# SCRIPT : DOWNLOAD AND INSTALL ANSITE
+# SCRIPT : DOWNLOAD AND INSTALL SKINS FOR OPENPLI PY3
 # ###########################################
 #
-# Command: wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -qO - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/soomarali/DOWNLOADS/main/Openpli%20py3/skin_isntaller.sh -qO - | /bin/sh
 #
 # ###########################################
 
