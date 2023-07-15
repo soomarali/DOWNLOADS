@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# ###########################################
+# SCRIPT : DOWNLOAD AND INSTALL ANSITE
+# ###########################################
+#
+# Command: wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -qO - | /bin/sh
+#
+# ###########################################
+
+###########################################
 # List of file URLs to download
 urls=(
     "https://raw.githubusercontent.com/soomarali/DOWNLOADS/main/Openpli%20py3/CinoDream_AShawky.tar.gz"
@@ -36,3 +45,17 @@ for url in "${urls[@]}"; do
     # Remove the downloaded tar.gz file
     rm "$destination/$filename"
 done
+sleep 2
+clear
+echo ""
+echo "***********************************************************************"
+echo "**                                                                    *"
+echo "**                       Skins       : openpli py3                    *"
+echo "**                       Uploaded by : ASGHAR ALI                     *"
+echo "**                       Develop FOR : DREAMWORLD                     *"
+echo "**                       Support     : 03357300604                    *"
+echo "**                                                                    *"
+echo "***********************************************************************"
+echo ""
+killall -9 enigma2
+exit 0
