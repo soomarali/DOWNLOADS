@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # code BY: ASGHAR ALI
-# python -c "$(wget https://raw.githubusercontent.com/soomarali/DOWNLOADS/main/openpli py3/installer.py -qO -)"
+# python -c "$(https://raw.githubusercontent.com/soomarali/DOWNLOADS/main/Openpli%20py3/skin_installer.py -qO -)"
 import subprocess
 
 # List of file URLs to download
