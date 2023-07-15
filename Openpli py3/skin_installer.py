@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# code BY: ASGHAR ALI
+# python -c "$(wget https://raw.githubusercontent.com/soomarali/DOWNLOADS/main/openpli py3/installer.py -qO -)"
 import subprocess
 
 # List of file URLs to download
@@ -9,7 +12,7 @@ urls = [
 ]
 
 # Destination directory to save the downloaded files
-destination = "/path/to/destination"
+destination = "/tmp/skins/"
 
 # Create the destination directory if it doesn't exist
 subprocess.run(["mkdir", "-p", destination])
@@ -26,5 +29,5 @@ for url in urls:
     subprocess.run(["rm", f"{destination}/{filename}"])
 
 # Display colorful message
-message = "\033[1;34mDEVELOPED BY ASGHAR ALI SOOMRO\033[0m"
+message = "\033[1;34mDEVELOPED BY: ASGHAR ALI SOOMRO\nDEVELOPED FOR: DREAMWORLD\nSUPPORT: 03357300604\033[0m"
 print(message)
