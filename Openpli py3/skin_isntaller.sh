@@ -48,7 +48,7 @@ for url in "${urls[@]}"; do
  echo "file Downloaded now Extracting: $filename"
 
     # Extract the downloaded file
-    tar -xzvf "$destination/$filename" -C "$destination"
+    tar -xzvf "$destination/$filename" -C
 
     # Remove the downloaded tar.gz file
     rm "$destination/$filename"
